@@ -37,9 +37,9 @@ cxx_compiler:
 cxx_compiler_version:
 - '14'
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma9
+- quay.io/condaforge/linux-anvil-x86_64:alma10
 gflags:
-- '2.2'
+- '2.3'
 glog:
 - '0.7'
 libabseil:
@@ -51,9 +51,9 @@ libboost_devel:
 libbrotlicommon:
 - '1.2'
 libgoogle_cloud_devel:
-- '3.6'
+- '3.8'
 libgoogle_cloud_storage_devel:
-- '3.6'
+- '3.8'
 libgrpc:
 - '1.82'
 libopentelemetry_cpp:
@@ -67,7 +67,7 @@ lz4_c:
 openssl:
 - '3.5'
 orc:
-- 2.3.0
+- 2.3.1
 re2:
 - 2025.11.05
 snappy:
