@@ -1,5 +1,7 @@
+DOCKER_PLATFORM:
+- linux/amd64
 aws_crt_cpp:
-- 0.40.1
+- 0.43.8
 aws_sdk_cpp:
 - 1.11.833
 azure_core_cpp:
@@ -57,7 +59,7 @@ libgoogle_cloud_storage_devel:
 libgrpc:
 - '1.82'
 libopentelemetry_cpp:
-- '1.27'
+- '1.30'
 libprotobuf:
 - 7.35.1
 libutf8proc:
@@ -73,7 +75,7 @@ re2:
 snappy:
 - '1.2'
 target_platform:
-- linux-64
+- linux-aarch64
 thrift_cpp:
 - 0.22.0
 zip_keys:
