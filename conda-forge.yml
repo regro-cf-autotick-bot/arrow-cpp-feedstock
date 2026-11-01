@@ -1,5 +1,6 @@
 bot:
   abi_migration_branches:
+    - 25.x
     - 24.x
     - 23.x
     - 22.x
